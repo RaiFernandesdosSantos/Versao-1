@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+body
+{
+	background-image: linear-gradient(to bottom, #FFB6C1, #F5F5F5);
+	font-family: Arial;
+}
+h2 
+{
+	font-size: 22pt;
+	color: black;
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+div#cadastro1	
+{
+	background-color: #f5f5f5;
+	width: 50vh;
+	height: 57vh;
+	padding: 0px 5px 0px 15px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 0px 2px linear-gradient(to bottom, #ffb6c1, #F5F5F5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+div#login
+{
+	background-color: #f5f5f5;
+	width: 44vh;
+	height: 34vh;
+	box-shadow: 0px 0px 0px 2px linear-gradient(to bottom, #ffb6c1, #F5F5F5);
+	padding: 0px 5px 0px 15px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+form#login
+{
+	display: flex;
+	flex-direction: column;
+}
+form#cadas
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+button#botao
+{
+	border-radius: 15px;
+	text-transform: uppercase;
+	font-size: 10pt;
+	padding: 3px 5px;
+	width: 150px;
+	align-self: center;
+	margin: 5px;
+	cursor: pointer;
+}
+form#cadas input
+{
+	width: 250px;
+	height: 45px;
+	border-radius: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div#cadastro
+{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+}
+div#log
+{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+}
+form#cad
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+form#cad input
+{
+	width: 20px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+form#login input
+{
+	width: 250px;
+	height: 45px;
+	border-radius: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div#home
+{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div#menu
+{
+	height: 18vh;
+	width: 16vh;
+	justify-content: center;			
+	align-items: center;
+	margin-right: 10vh;
+}
+div#menu ul
+{
+	background-color: floralwhite;
+	display: flex;
+	flex-direction: column;
+}
+div#menu ul li
+{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	list-style: none;
+	padding: 8px 20px;
+	box-shadow: 0px 0px 0px 2px black;
+}
+div#infograf
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+div#graficos
+{
+	background-color: floralwhite;
+	box-shadow: 0px 0px 0px 2px black;
+	height: 45vh;
+	width: 150vh;
+	margin: 10px;
+	padding: 10px;
+}
+div#informacoes
+{
+	background-color: floralwhite;
+	box-shadow: 0px 0px 0px 2px black;
+	height: 45vh;
+	width: 150vh;
+	margin: 10px;
+	padding: 10px;
+}
+a
+{
+	text-decoration: none;
+	color: red;
+}
